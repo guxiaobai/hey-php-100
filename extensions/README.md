@@ -12,6 +12,8 @@ apt-get install php-curl
 
 ## [How to enable or disable PHP Modules on Ubuntu](https://tecadmin.net/enable-disable-php-modules-ubuntu/)
 
+> `/etc/php/{php_version}/mods-available`
+
 ```bash
 apt-get install php-common
 apt info php-common
