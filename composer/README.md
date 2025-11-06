@@ -44,6 +44,7 @@ composer diagnose
 > `/etc/profile.d/composer.sh`
 
 ```bash
+# 路径有差异需要对比检查一下
 export PATH=$HOME/.config/composer/vendor/bin:$PATH
 ```
 
