@@ -30,6 +30,7 @@ RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
 
 * [php 扩展源码编译安装和软件包安装以及 libvirt-php 扩展介绍_哔哩哔哩_bilibili](./BV1eQ4y1B7Y4)
+* [PHP 的 PECL，PEAR 和 Composer 三种仓库_哔哩哔哩_bilibili](./BV15f4y1g7t7)
 
 
 ## Ref

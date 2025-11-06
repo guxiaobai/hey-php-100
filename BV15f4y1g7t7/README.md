@@ -5,13 +5,7 @@
 |:---:|:---:
 `Sun Jun  5 00:01:56 CST 2022` | -
 
-* `which pear`: 文件在哪里 `/usr/bin/pear`
-* `file /usr/bin/pear`: 文件是什么类型的
-* `dpkg-query -S /usr/bin/pear`: 是那个软件包提供的
-* `apt info php-pear`
-* `dpkg-query -L php-pear`: 提供那些文件
 
----
 
 要确认哪个包提供了 pear 命令，可以用
 
@@ -20,7 +14,13 @@ apt install apt-file
 apt-file update
 apt-file search bin/pear
 ```
+---
 
+* `which pear`: 文件在哪里 `/usr/bin/pear`
+* `file /usr/bin/pear`: 文件是什么类型的
+* `dpkg-query -S /usr/bin/pear`: 是那个软件包提供的
+* `apt info php-pear`
+* `dpkg-query -L php-pear`: 提供那些文件
 
 ---
 
@@ -33,7 +33,22 @@ apt-file search bin/pear
 
 ## Pecl
 
+> 稍微好一点是基于C的，速度快一点
+
 * `pecl list`
+* `pecl install`
+
+## Composer
+
+* Magento 被Adobe 收购了
+
+```bash
+composer config -g -l
+```
+
+```bash
+composer require topthink/think  
+```
 
 
 ## Ref
