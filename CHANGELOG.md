@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- PHPUnit from 10.1 upgrade to 12.4
 
 
 ## [1.0.0] - 2023-11-02
