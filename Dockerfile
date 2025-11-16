@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN curl -sS https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/local/bin/composer
-RUN composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+# RUN composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 
 RUN composer global require psy/psysh
 ENV PATH "/root/.composer/vendor/bin:$PATH"
